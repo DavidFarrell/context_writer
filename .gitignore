@@ -40,6 +40,7 @@ temp/
 *.log
 .claude/
 .ruler/ruler.toml
+.sesskey
 
 # START Ruler Generated Files
 /.codex/config.json
