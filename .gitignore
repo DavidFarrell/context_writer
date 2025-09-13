@@ -18,6 +18,10 @@ _docs/
 _proc/
 _site/
 nbs/_quarto.yml
+nbs/sidebar.yml
+context_writer/_modidx.py
+dist/
+*.egg-info/
 
 # FastHTML
 *.db
@@ -40,3 +44,12 @@ temp/
 *.log
 .claude/
 .ruler/ruler.toml
+
+# MCP configuration with secrets
+.mcp.json
+
+# Session keys
+.sesskey
+
+# Playwright screenshots
+.playwright-mcp/
