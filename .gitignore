@@ -47,9 +47,29 @@ temp/
 
 # MCP configuration with secrets
 .mcp.json
+.mcp.json.local
 
-# Session keys
+# Session keys and secrets
 .sesskey
+*.sesskey
+.sessionkey
+*.sessionkey
+
+# API keys and credentials
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*credential*
+*token*
+api_keys.json
+credentials.json
 
 # Playwright screenshots
 .playwright-mcp/
+
+# Temporary MCP files
+mcp_server.log

@@ -16,7 +16,7 @@ def gemini_results_section():
 def gemini_input_form():
     return Form(
         Div(
-            Label("Prompt", _for="prompt", cls="text-sm font-medium mb-2 block text-white"),
+            Label("Prompt", _for="prompt", cls="text-sm font-medium mb-2 block text-white border-none bg-transparent"),
             TextArea(id="prompt", rows="4", cls="bg-white text-gray-900 border-gray-300 min-h-24 w-full rounded-md border p-2")
         ),
         Button("Run Experiment", cls=ButtonT.primary),
